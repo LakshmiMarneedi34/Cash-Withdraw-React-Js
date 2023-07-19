@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  height: 150vh;
+  align-items: center;
+}
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #150b3e;
+  height: 120vh;
+  width: 70%;
+  border-radius: 14px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 40px;
+  background-color: #c7d2fe;
+  padding: 20px;
+  color: #7c3aed;
+  font-family: 'Roboto';
+  padding-right: 30px;
+  align-self: center;
+}
+.logo-container {
+  display: flex;
+}
+.heading {
+  font-size: 25px;
+  color: #d4d2db;
+  padding-left: 30px;
+  font-weight: 400;
+}
+.space-between-container {
+  display: flex;
+  justify-content: space-between;
+}
+.balance-description {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #585076;
+  font-size: 22px;
+}
+.number {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #d4d2db;
+  font-weight: 400;
+}
+.rupees {
+  font-family: 'Roboto';
+  color: #585076;
+  font-size: 14px;
+  align-self: flex-end;
+  font-weight: bold;
+}
+.withdraw-description {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #d4d2db;
+  font-weight: 400;
+}
+.choose-description {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #585076;
+  font-size: 22px;
+}
+.list-container {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+}
